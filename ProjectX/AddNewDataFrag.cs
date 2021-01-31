@@ -13,7 +13,7 @@ namespace ProjectX
     {
 
 
-        // making an event handler //
+        // making an event handler for new data entery //
         public event EventHandler<NewDataEventHandler> newDataEnteryEvent;
         public class NewDataEventHandler : EventArgs
         {
